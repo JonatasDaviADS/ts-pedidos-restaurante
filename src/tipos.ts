@@ -11,7 +11,7 @@ export interface IItemCardapio {
 }
 
 // === INTERFACE: o "modele" de um pedido === 
-export interface Ipedido {
+export interface IPedido {
     readonly id: number;
     cliente: string;
     itens: IItemCardapio[];
